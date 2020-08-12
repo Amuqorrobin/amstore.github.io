@@ -1,0 +1,99 @@
+body {
+    font-family: 'montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+.nav-link .fa-shopping-cart {
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+/* Carousel */
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.col h1 {
+    font-family: lora;
+    font-weight: 600;
+}
+
+.col a {
+    font-family: montserrat;
+    font-weight: bold;
+    color: white;
+}
+
+
+.features h3,
+.designer h3 {
+    font-family: lora;
+    font-weight: bold;
+    color: #1B2691;
+}
+
+.features p,
+.designer p {
+    font-family: montserrat;
+    color: #B7B7B7;
+}
+
+.figure h1 {
+    font-family: lora;
+    font-size: 22px;
+    color: #171717;
+}
+
+.figure p {
+    font-family: montserrat;
+    color: #B7B7B7;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+.designer a {
+    color: #1B2691;
+    font-family: lora;
+}
+
+.multiple-items .items img {
+    width: 300px;
+    height: 100px;
+}
